@@ -94,8 +94,8 @@ class Testes(TestCase):
 calculador = Calculadora()
 calcular = calculador.calcular(5,5, 'soma')
 calcular_subtracao = calculador.calcular(5,5, "subtrair")
-print("RESULTADO:", calcular)
-print("RESULTADO:", calcular_subtracao)
+print("Resultado:", calcular)
+print("Resultado:", calcular_subtracao)
 
 if __name__ == '__main__':
     main()
